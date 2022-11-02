@@ -5,7 +5,7 @@
   "description": "A full stack JavaScript solo project.",
   "main": "server/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "NODE_ENV=production node .",
     "dev": "NODE_ENV=development nodemon .",
     "build": "NODE_ENV=production webpack",
